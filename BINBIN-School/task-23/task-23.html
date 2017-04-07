@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task-23</title>
+	<link rel="stylesheet" type="text/css" href="task-23.css">
+</head>	
+<body>
+	<div class="root">
+		ROOT
+		<div class="child_1">
+			C1(1)
+			<div class="child_2">
+				C2(1)
+				<div class="child_3">
+					(1)
+				</div>
+				<div class="child_3">
+					(2)
+				</div>
+				<div class="child_3">
+					(3)
+				</div>
+				<div class="child_3">
+					(4)
+				</div>
+			</div>
+			<div class="child_2">
+				C2(2)
+			</div>
+			<div class="child_2">
+				C2(3)
+				<div class="child_3">
+					[1]
+				</div>
+				<div class="child_3">
+					[2]
+				</div>
+			</div>
+		</div>
+		<div class="child_1">
+			C1(2)
+			<div class="child_2">
+				C2[1]
+				<div class="child_3">
+					<1>
+				</div>
+				<div class="child_3">
+					<2>
+				</div>
+				<div class="child_3">
+					<3>
+				</div>
+			</div>
+			<div class="child_2">
+				C2[2]
+				<div class="child_3">
+					{1}
+					<div class="child_4">
+						C4
+					</div>
+				</div>
+				<div class="child_3">
+					{2}
+				</div>
+			</div>
+		</div>
+		<div class="child_1">
+			C1(3)
+		</div>
+	</div>
+	<br>
+	<input type="button" value="深度遍历" style="margin-left: 20px">
+	<input type="button" value="广度遍历">
+	<br>
+	<input type="button" value="深度遍历搜索" style="margin-left: 20px">
+	<input type="button" value="广度遍历搜索">
+	<input type="text" class="text">
+	<br>
+	<input type="button" value="删除" style="margin-left: 20px">
+	<input type="button" value="添加">
+	<input type="text" class="text">
+	<script src="task-23.js"></script>
+</body>
+</html>
