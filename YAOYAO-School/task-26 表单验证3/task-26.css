@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+form{
+	margin: 20px;
+	position: relative;
+}
+span {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+form > input{
+	margin: 21px 5px 21px 21px;
+}
+#city{
+	margin-right: 30px;
+}
+#city option{
+	 border-right: 1px solid #aaa;
+}
